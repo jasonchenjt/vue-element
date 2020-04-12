@@ -9,7 +9,7 @@
    name: 'app',
    methods:{
      saveState(){
-        sessionStorage.setItem('userState',JSON.stringify(this.$store.state.user))
+        sessionStorage.setItem('state',JSON.stringify(this.$store.state.user))
      },
    },
    mounted() {

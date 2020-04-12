@@ -14,6 +14,9 @@
               <el-menu-item index="1-2">
                   <router-link to="/user/list">用户列表</router-link>
               </el-menu-item>
+              <el-menu-item index="1-3">
+                  <router-link to="/user/select">测试选择</router-link>
+              </el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           <el-submenu index="2">
